@@ -3,9 +3,9 @@ This is my first module. I took plenty time before my first module to learn abou
 
 ## Intro to commands
 This part was pretty straightforward they just wanted me to print the username using whoami command and then just invoking helo command which I dont think actually exists. then i easily got the flag and i submitted it to the pwn.college website.
-![COMMAND 1](Screenshot from 2024-10-03 23-24-56.png)
+![COMMAND 1]('Screenshot from 2024-10-03 23-24-56.png')
 
 ## Intro to Arguments
 This part was also simple only because it just taught about the echo command which prints the argument, but to capture the flag they didnt even require the echo command they just wanted us to run the hello hacker command which in turn gave the flag which I uploaded.
-![COMMAND 2](Screenshot from 2024-10-03 23-27-01.png)
+![COMMAND 2]('Screenshot from 2024-10-03 23-27-01.png')
 
