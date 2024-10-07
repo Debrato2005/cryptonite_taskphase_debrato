@@ -31,23 +31,26 @@ This just required me to delete a file then run the path to get the flag, nothin
 ![COMMAND 18](screenshots/screenshot18.png)
 
 ## hidden files
-
+This challenge was also simple, I just had to l -a then use cat to read the flag file for flag.
 ![COMMAND 19](screenshots/screenshot19.png)
 
-##
+## An Epic Filesystem Quest
+This problem was just lengthy, repeating the concepts, key concept in that accessing the file without cd was using ls with the given absolute path and then cat with the given absolute path with the file.
+![COMMAND 20a](screenshots/screenshot20a.png)
+![COMMAND 20b](screenshots/screenshot20b.png)
+![COMMAND 20c](screenshots/screenshot20c.png)
 
-![COMMAND 20](screenshots/screenshot20.png)
-
-##
-
+## making directories
+In this challenge I just had to create a directory then create a file and then running an absolute path to get the flag. We can also use dabsolute path with mkdir and touch.
 ![COMMAND 21](screenshots/screenshot21.png)
 
-##
+## finding files
+This was a bit tediois because it gave many absolute paths, I thought I would first list all directories using ls, then try my luck checking each flag. At first I got confuesd because i wasnt getting the flag then I saw i was missing 2 paths among all the permission denied ones, then i tried the same with them with the second path when I uswd ls i got the same path printed back to me which meant it directed to a file and not adirectory and on reading that file I got the flag. 
+![COMMAND 22a](screenshots/screenshot22a.png)
+![COMMAND 22b](screenshots/screenshot22b.png)
 
-![COMMAND 22](screenshots/screenshot22.png)
-
-##
-
+## linking files
+In this challenge I was getting confused that should the I link the content of /challenge/catflag  to file.txt which gave the output /home/hacker/not-the-flag ie my idea was wrong then i thought of linking the /flag to /home/hacker/not-the-flag so that when i run /challenge/catflag it would invoke/home/hacker/not-the-flag and which in turn would give me the flag. I was getting error when I was using ln -s, it was saying that the file not-the-flag already exists, so on finding more about this I got to know about the -sf flag in which the -f flag would overwrite the existing file at /home/hacker/not-the-flag.
 ![COMMAND 23](screenshots/screenshot23.png)
 
 
