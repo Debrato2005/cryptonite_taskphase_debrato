@@ -6,7 +6,7 @@ The first challenge was easy it just taught how to redirect stdout to files usin
 ![COMMAND 37](screenshots/screenshot37.png)
 
 ## Redirecting more output
-This challenge was similar to the last challenge, here additionally I just had to print the myflag file.
+This challenge was similar to the last challenge, here additionally I just had to print the myflag file.In the challenge, you’re tasked with redirecting the output of the /challenge/run command to a file named myflag. But you’ll notice something unexpected: even after you redirect the output, some information from /challenge/run is still shown on the terminal.
 ![COMMAND 38](screenshots/screenshot38.png)
 
 ## Appending output
